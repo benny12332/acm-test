@@ -17,7 +17,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: mysql-pv-claim
   labels:
-    app: wordpress
+    appname: mysql
 spec:
   storageClassName: ocs-storagecluster-ceph-rbdmirror
   accessModes:
